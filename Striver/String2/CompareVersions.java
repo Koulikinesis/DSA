@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int compareVersion(String version1, String version2) {
         int temp1 = 0,temp2 = 0;
         int len1 = version1.length(),len2 = version2.length();
@@ -26,3 +26,4 @@ public class Solution {
         return 0;
         
     }
+}

@@ -1,4 +1,4 @@
-public class Solution {
+ class Solution {
     public boolean repeatedSubstringPattern(String str) {
         int n = str.length();
         int z[] = zFunction(str.toCharArray());

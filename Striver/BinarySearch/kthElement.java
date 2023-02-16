@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+ class Main {
     static int kthelement(int arr1[], int arr2[], int m, int n, int k) {
     if(m > n) {
         return kthelement(arr2, arr1, n, m, k); 
